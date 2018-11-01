@@ -1,0 +1,14 @@
+<h1>COnnexion</h1>
+
+<%= form_for @user, url: {action: "create"} do |f| %>
+ <fieldset>
+    <ul>
+        <label for= "email" > Email:</label> <%= f.text_field :email %></br>
+
+        <label for= "password_digest">Password: </label><%= f.text_field :password_digest %></br>
+    </ul>
+    <%= f.submit value="Enter" %> 
+    <a href="/gossips"><input type="button" value="Cancel"></a>
+
+</fieldset>
+<% end %>
