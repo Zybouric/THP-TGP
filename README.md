@@ -1,7 +1,7 @@
 # ![CI status](http://oi68.tinypic.com/ngf2uo.jpg)    
 #  The Hacking Project
 <br/>
-<h2>:japanese_goblin: Week 4 - Thrusday 1st November : Pimp Gossing Project :japanese_ogre: </h2>
+<h2>:skull: Week 4 - Thrusday 1st November : Pimp Gossing Project :skull: </h2>
 
 <body>
 
@@ -26,9 +26,9 @@
 <ul>
 
 <li>Christine aka Zybouric :beer: <a href="https://github.com/Zybouric"><code>clic</code></a><br/></li>
-<li>Antoine aka Tonoutt :runner:  <a href="https://github.com/tonoutt"><code>clic</code></a><br/></li>
+<li>Antoine aka Tonoutt :snowboarder:  <a href="https://github.com/tonoutt"><code>clic</code></a><br/></li>
 <li>Kathleen aka Funkykath :iphone: <a href="https://github.com/Funkykath"><code>clic</code></a><br/></li>
-<li>Asvinie aka Asvinie057 :princess: <a href="https://github.com/asvinie057"><code>clic</code></a><br/></li>
+<li>Asvinie aka Asvinie057 :nail_care: <a href="https://github.com/asvinie057"><code>clic</code></a><br/></li>
 </ul>
 
 </body>
