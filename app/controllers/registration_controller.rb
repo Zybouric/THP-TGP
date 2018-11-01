@@ -9,8 +9,9 @@ class RegistrationController < ApplicationController
 
   def create
     @user = User.new(params[:email])
-    @user.password = params[:password]
-    @user.save!
+    @user.password_digest = params[:password_digest]
+    @user.save
+    redirect_to gossips_path
   end
 
   def login
