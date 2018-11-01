@@ -17,20 +17,13 @@
         <nav>
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to "Accueil", '/gossips/home' %></li>
-            <li><%= link_to "Index des gossips",'/gossips' %></li>
+            <li><%= link_to "Index des gossips", gossips_path %></li>
             <li><%= link_to "Nouveau gossip", '/gossips/new' %></li>
-            <li><%= link_to "Connexion", '/registration/new' %></li>
+            <li><%= link_to "Connexion", '/registration/login' %></li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="center jumbotron">
-  <h1>Bienvenue !</h1>
-  <h3>
-    Ici, tu peux retrouver les moussaillons 🎓
-  </h3>
-  <%= link_to "Enregistre-toi !", '/registration/new', class: "btn btn-lg btn-primary" %>
-</div>
     <%= yield %>
   </body>
 

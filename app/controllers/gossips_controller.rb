@@ -1,11 +1,17 @@
 class GossipsController < ApplicationController
   def home
+    puts "ddddddd"
   end
   def new
   	@gossips = Gossip.new
   end 
   def create
   	@gossips = Gossip.new
+   #if @gossip.save
+    #    redirect_to gossips_path
+     # else
+      #  render 'new'
+     # end
   end 
   def show
   	@gossips = Gossip.all
