@@ -2,13 +2,15 @@
 
 <%= form_for @user, url: {action: "create"} do |f| %>
  <fieldset>
-    <ul>
-        <label for= "email" > Email:</label> <%= f.text_field :email %></br>
+    <ul id="center-user">
+        <label for= "email" > Email:</label> <%= f.text_field :email, placeholder: "Email" %></br>
 
-        <label for= "password_digest">Password: </label><%= f.text_field :password_digest %></br>
+        <label for= "password_digest">Password: </label><%= f.text_field :password_digest, placeholder: "Password" %></br>
     </ul>
+    <alex>
     <%= f.submit value="Enter" %> 
     <a href="/gossips"><input type="button" value="Cancel"></a>
+	</alex>
 
 </fieldset>
 <% end %>
