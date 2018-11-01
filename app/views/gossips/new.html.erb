@@ -1,0 +1,14 @@
+Formulaire 
+<!-- FORM_FOR-->
+<%= form_for @gossips, url: {action: "create"} do |f| %>
+ <fieldset>
+    <ul>
+        <label for= "title" > Title:</label> <%= f.text_field :title %></br>
+
+        <label for= "content">Gossip: </label><%= f.text_area :content, size: "33x12" %></br>
+    </ul>
+    <%= f.submit value="Send" %> 
+    <a href="/users"><input type="button" value="Cancel"></a>
+
+</fieldset>
+<% end %>
