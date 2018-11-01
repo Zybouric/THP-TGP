@@ -22,7 +22,7 @@
 
   <h2>Team</h2>
 
- <p>Hey guys ! We're from the Team SaphyR ! 2/6</p>
+ <p>Hey guys ! We're from the Team SaphyR ! 4/7</p>
 <ul>
 
 <li>Christine aka Zybouric :beer: <a href="https://github.com/Zybouric"><code>clic</code></a><br/></li>
