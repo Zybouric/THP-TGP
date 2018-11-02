@@ -18,7 +18,7 @@
  
 </ol>
 [lien github] (https://github.com/Zybouric/THP-TGP)
-  <p> To see the final result go [there:] No final project on heroku because of "failure while bundle installing" J'ai fait un bundle update et un update sur le gemfile lock mais rien a faire. :-( Merci de faire un run de l'appli directement via le localhost:3000. desole
+  <p> To see the final result go [https://powerful-wave-66614.herokuapp.com] No final project on heroku because of "failure while bundle installing" J'ai fait un bundle update et un update sur le gemfile lock mais rien a faire. :-( Merci de faire un run de l'appli directement via le localhost:3000. desole
 
 ## ![Image of form](https://images.lookhuman.com/render/standard/Eym220v8OHIlCK64m4trcnPIVG4rO3PT/greetingcard45-off_white-z1-t-i-m-sorry-i-m-just-a-potato.jpg)
 
