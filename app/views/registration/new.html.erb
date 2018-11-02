@@ -4,11 +4,14 @@
 <%= form_for @user, url: {action: "create"} do |f| %>
  <fieldset>
     <ul id="center-user">
+    	<label for= "first_name" > First name :</label> <%= f.text_field :first_name, placeholder: "Paul" %></br>
+    	<label for= "last_name" > Last name :</label> <%= f.text_field :last_name, placeholder: "Smith" %></br>
         <label for= "email" > Email:</label> <%= f.text_field :email, placeholder: "Email" %></br>
 
         <label for= "password_digest">Password: </label><%= f.text_field :password_digest, placeholder: "Password" %></br>
     </ul>
     <alex>
+
     <a a href="/registration/new"><input class="btn btn-primary" name="commit" type="button"
        value="Create " /></a>
      <a a href="/gossips/home"><input class="btn btn-primary" name="commit" type="button"

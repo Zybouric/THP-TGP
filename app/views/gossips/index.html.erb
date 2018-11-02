@@ -1,15 +1,16 @@
 <h1>Liste des gossips</h1>
 
+
 <fieldset>
-<% @gossips.each do |g| %>
-	Title: <%= g.title %>
-	Content: <%= g.content %> 
-	Date: <%g.created_at %>
-	</br></br></br>
-<% end %>
+	Title: Gossip 2</br>
+	Content: fun fact</br>
+	Date: 21/29/30
+<p>	
+	<a href="<%="gossips/edit" %>"class="btn btn-primary">Editer le gossip</a>
+	<a href="<%=gossips_path %>"class="btn btn-danger" data-confirm="Confirmer la suppression?" data-method="delete">Supprimer le gossip</a>
+</p>
+	</br>
 </fieldset>
 
-<p>	
-	prout
-	<!--<a href="<%= @gossips_path(gossips.id) %>" class="btn btn-primary">Lire la suite</a>-->
-</p>
+	<a href="<%="gossips/new" %>"class="btn btn-primary">Ajouterle gossip</a>
+

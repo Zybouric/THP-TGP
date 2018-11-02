@@ -1,6 +1,6 @@
 <h1>Editer un gossip</h1>
 
-<%= form_for @gossips do |f| %>
+<%= form_for @gossips, url: {action: :create}, method: 'POST' do |f| %>
  <fieldset>
     <ul id="center-gossip">
         <label for= "title" > Title:</label> <%= f.text_field :title, placeholder: "Titre" %></br>
@@ -9,12 +9,11 @@
     </ul>
   <tpf>  
     <%= f.submit value="Send" %> 
-<<<<<<< HEAD
-    <a href="/gossips/home"><input type="button" value="Cancel"></a>
 
-=======
     <a href="/gossips"><input type="button" value="Cancel"></a>
   </tpf>
->>>>>>> ed31e912f5bec1bf77cbf092462cced904e00920
+
 </fieldset>
 <% end %>
+
+
