@@ -1,27 +1,29 @@
 <%provide(:title, "LOGIN") %>
 <h1>Login </h1>
 
-<form id="center-login" accept-charset="UTF-8" action="/login" method="post">
-
-  <label for="session_email">Email</label>
-  <input class="form-control" id="session_email"
+<form  accept-charset="UTF-8" action="/login" method="post">
+  <tb id="center-login">
+    <label for="session_email">Email</label>
+    <input class="form-control" id="session_email"
          name="session[email]" type="text" />
 
-  <label for="session_password">Password</label>
-  <input id="session_password" name="session[password]"
+    <label for="session_password">Password</label>
+    <input id="session_password" name="session[password]"
          type="password" />
-
-  <a a href="/registration/index"><input class="btn btn-primary" name="commit" type="submit"
+  </tb>
+  <az>
+    <a a href="/registration/index"><input class="btn btn-primary" name="commit" type="submit"
        value="Log in" /> 
-  <a a href="/gossips/home"><input class="btn btn-primary" name="commit" type="button"
+    <a a href="/gossips/home"><input class="btn btn-primary" name="commit" type="button"
        value="Cancel" /></a>
-  </br></br>
-
-  <span> Nouvel utilisateur</span></br>
+  </az>
+</br></br>
+  <ae>
+    <span> Nouvel utilisateur</span></br>
 
      <a a href="/registration/new"><input class="btn btn-primary" name="commit" type="button"
        value="New " /></a>
      <a a href="/gossips/home"><input class="btn btn-primary" name="commit" type="button"
        value="Cancel" /></a>
-
+  </ae>
 </form>
